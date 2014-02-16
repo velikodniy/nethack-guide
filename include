@@ -1,0 +1,23 @@
+\setmainfont{Charis SIL}
+\setsansfont{Linux Biolinum O}
+\setmonofont{Ubuntu Mono}
+
+%%% XeTeX fix
+\newfontfamily{\cyrillicfont}{Charis SIL}
+
+%%% Геометрия страницы %%%
+\usepackage[
+  twoside,
+  driver=xetex,
+  a5paper,
+  includefoot,
+  headsep=0mm,
+  tmargin=1.5cm,
+  bmargin=1.5cm,
+  lmargin=1.5cm,
+  rmargin=1.5cm
+]{geometry}
+
+%%% Прочее %%%
+\usepackage{indentfirst}
+
